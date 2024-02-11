@@ -16,9 +16,6 @@ namespace Task2_Images_.Scripts
              IconFactory iconFactory = new IconFactory();
 
              icons = iconFactory.Get(_iconType, _iconsConfig);
-             
-             Debug.Log(icons);
-             
              _imageFiller.FillImages(icons[0].Sprite, icons[1].Sprite);
          }
     }

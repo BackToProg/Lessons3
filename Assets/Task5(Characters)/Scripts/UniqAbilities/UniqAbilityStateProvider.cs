@@ -1,5 +1,3 @@
-using UnityEngine;
-
 namespace Task5_Characters_.Scripts.UniqAbilities
 {
     public class UniqAbilityStateProvider : IStats
